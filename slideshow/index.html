@@ -3,18 +3,20 @@
 <html>
 	<head>
 		<title> Slideshow </title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="js/script.js"> </script>
+
 	</head>
 
 	<body>
 
     <div class="slideshow">
-      <div class="mySlide">
-          <img id="slide" src="img/arequipa.jpg">
-      </div>
+      <img id="slide" src="img/arequipa.jpg" height="460" width="820">
 
-      <button onclick="previousPicture()"> Previous </button>
-      <button onclick="nextPicture()"> Next </button>
+			<div class="buttons">
+	      <button onclick="previousPicture()"> Previous </button>
+	      <button onclick="nextPicture()"> Next </button>
+			</div>
     </div>
 
 	</body>
