@@ -1,6 +1,6 @@
 .header{
 	padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 	background-image: url(../img/header.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 }
 
 .header-info h2{
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #fff;
@@ -29,4 +29,8 @@
 .header-info h2 span{
 	font-weight: 800;
 	color: #ffb300;
+}
+
+h3{
+  color: #111D2B;
 }
