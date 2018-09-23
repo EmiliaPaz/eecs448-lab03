@@ -17,27 +17,27 @@
 		<form>
             <h3>Border: </h3>
             <div class="row">
-                Red Value <input id="borderRed" type="text" />
+                Red Value <input id="borderRed" type="number" />
             </div>
             <div class="row">
-                Green Value <input id="borderGreen" type="text" />
+                Green Value <input id="borderGreen" type="number" />
             </div>
             <div class="row">
-                Blue Value <input id="borderBlue" type="text" />
+                Blue Value <input id="borderBlue" type="number" />
             </div>
             <div class="row">
-                Width <input id="borderWidth" type="text" />
+                Width <input id="borderWidth" type="number" />
             </div>
 
             <h3>Background: </h3>
             <div class="row">
-                Red Value <input id="backgroundRed" type="text" />
+                Red Value <input id="backgroundRed" type="number" />
             </div>
             <div class="row">
-                Green Value <input id="backgroundGreen" type="text" />
+                Green Value <input id="backgroundGreen" type="number" />
             </div>
             <div class="row">
-                Blue Value <input id="backgroundBlue" type="text" />
+                Blue Value <input id="backgroundBlue" type="number" />
             </div>
 
             <button type="button" onclick="changeBoxAttributes()">Submit</button>
@@ -45,9 +45,19 @@
             <div class="row">
                 <p> Note: Enter all values as integers. RGB values should be between 0 and 255. </p>
             </div>
-
-
         </form>
+
+        <div id="invalid-border">
+            <p> Invalid border </p>
+        </div>
+
+        <div id="invalid-background">
+            <p> Invalid background </p>
+        </div>
+
+        <div id="invalid-width">
+            <p> Invalid width </p>
+        </div>
 
 
 	</body>
