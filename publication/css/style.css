@@ -1,0 +1,16 @@
+.row {
+    height: 40px;
+    margin: 10px;
+    padding-top: 25px;
+    background-color: grey;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
